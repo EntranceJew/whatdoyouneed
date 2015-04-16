@@ -1,0 +1,1 @@
+print("ARE YOU CRAZY, I'M A HORSE!")
