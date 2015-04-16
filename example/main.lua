@@ -9,8 +9,7 @@ require "lib.horse"
 require 'lib.complex'
 require 'lib.complex.parts.part1'
 
+-- the contents of your table
 local tree = whatdoyouneed:getTree()
-local whats_inside_main = tree['@main.lua']
-for k, v in pairs(whats_inside_main) do
-	print(k, v)
-end
+
+whatdoyouneed:printTree()
